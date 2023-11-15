@@ -74,11 +74,11 @@ crashlytics-build.properties
 
 # above is the basic .gitignore for unity provided by github. Following are custom additions
 Assets/SamplesResources/Recordings
-Assets/Editor/Migration/com.ptc.vuforia.engine-10.18.4.tgz
-Assets/StreamingAssets/Vuforia/Vuforia_Marslander_RZR_Toy_Advanced.dat
-Assets/Editor/Vuforia/AreaTargetSample/Data/NavMesh/Meshes/mesh0.asset
 Assets/SamplesResources/AugmentationAssets/Models/Drone.FBX
 Assets/SamplesResources/AugmentationAssets/Models/Astronaut.FBX
-Assets/Editor/Vuforia/AreaTargetSample/ed1d033f55404b708a1e13215cfa93c5/ed1d033f55404b708a1e13215cfa93c5_authoring.glb
-Packages/com.ptc.vuforia.engine-10.18.4.tgz
 Assets/SamplesResources/SceneAssets/ImageTargets/Video/VuforiaEngine.mp4
+Assets/Editor/Migration/com.ptc.vuforia.engine-10.18.4.tgz
+Assets/Editor/Vuforia/AreaTargetSample/Data/NavMesh/Meshes/mesh0.asset
+Assets/Editor/Vuforia/AreaTargetSample/ed1d033f55404b708a1e13215cfa93c5/ed1d033f55404b708a1e13215cfa93c5_authoring.glb
+Assets/StreamingAssets/Vuforia/Vuforia_Marslander_RZR_Toy_Advanced.dat
+Packages/com.ptc.vuforia.engine-10.18.4.tgz
