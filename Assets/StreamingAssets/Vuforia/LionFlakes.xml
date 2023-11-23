@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="LionsFlakesBox.Top" size="0.120400 0.060115"/>
+        <ImageTarget name="LionsFlakesBox.Back" size="0.120400 0.090173"/>
+        <ImageTarget name="LionsFlakesBox.Right" size="0.060100 0.090150"/>
+        <ImageTarget name="LionsFlakesBox.Bottom" size="0.120400 0.060115"/>
+        <ImageTarget name="LionsFlakesBox.Front" size="0.120400 0.090173"/>
+        <ImageTarget name="LionsFlakesBox.Left" size="0.060100 0.090150"/>
+        <MultiTarget name="LionsFlakesBox">
+            <Part name="LionsFlakesBox.Left" translation="-0.06019999831914902 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="LionsFlakesBox.Right" translation="0.06019999831914902 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="LionsFlakesBox.Front" translation="0 0 0.030050000175833702" rotation="AD: 1 0 0 0"/>
+            <Part name="LionsFlakesBox.Back" translation="0 0 -0.030050000175833702" rotation="AD: 0 1 0 180"/>
+            <Part name="LionsFlakesBox.Top" translation="0 0.045099999755620956 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="LionsFlakesBox.Bottom" translation="0 -0.045099999755620956 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
