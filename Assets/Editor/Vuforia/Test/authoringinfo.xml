@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<VuforiaUnityInfo>
+    <TargetSet toolVersion="" version="6.0"><VuMark name="Chateau" previewImage="5a9f5636a2884707a8eca3b5f33d670e_preview.png" targetId="5a9f5636a2884707a8eca3b5f33d670e" version="9.0">
+            <Shape bbox2D="0 0 85.916 42.392" origin="3.715 39.151" />
+            <Code IDlength="10" IDtype="string" />
+        </VuMark>
+    <VuMark name="MortonTuxedos" previewImage="3ef4f5818e804451aec5921d398a3f3a_preview.png" targetId="3ef4f5818e804451aec5921d398a3f3a" version="9.0">
+            <Shape bbox2D="0 0 133.333 150" origin="66.672 113.724" />
+            <Code IDlength="4" IDtype="string" />
+        </VuMark>
+    </TargetSet>
+</VuforiaUnityInfo>
