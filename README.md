@@ -18,6 +18,10 @@ Customize the digital building with different materials and further structural p
 ### 4. Preview
 A way to look at a finished building either from a different perspective or via AR in the physical world
 
+---
+
+With these four steps, we concluded that the second step (scanning the physical building blocks and transfering them into a virtual environment) is the most critical point in our concept.
+
 ## Vuforia Engine
 Vuforia is a Unity Plugin, which provides solutions for tracking objects in AR applications.
 
