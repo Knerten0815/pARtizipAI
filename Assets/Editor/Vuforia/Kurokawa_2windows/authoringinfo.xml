@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v6.2.3">
+        <ModelTarget name="Kurokawa_2windows" targetId="0e7f0807565a4aec82b10ae47a16465e" version="13.0" toolVersion="v6.2.3" bbox="-0.050072 -0.050049 -0.050529 0.050049 0.050072 0.050529" trackingMode="car" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects" realisticTextures="no" />
+    </TargetSet>
+    <Assembly name="Kurokawa_2windows" assemblyId="7dc9f6588eb9457cb24505a49a2d93b2">
+        <Part name="Kurokawa_2windows" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+</QCARInfo>
