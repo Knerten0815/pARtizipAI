@@ -1,6 +1,5 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class SwitchModels : MonoBehaviour
@@ -119,10 +118,10 @@ public class SwitchModels : MonoBehaviour
 
     private bool[] _bools,
         _previousBools;
-    private GameObject[] _models;
+    public GameObject[] _models;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         _bools = new bool[
             JapaneseModels.GetBools().Length
@@ -132,7 +131,6 @@ public class SwitchModels : MonoBehaviour
         GetBools();
 
         _previousBools = new bool[_bools.Length];
-        _bools.CopyTo(_previousBools, 0);
 
         _models = new GameObject[_bools.Length];
         JapaneseModels.models.CopyTo(_models, 0);
@@ -199,8 +197,7 @@ public class SwitchModels : MonoBehaviour
         {
             if (i == index)
             {
-                _bools[i] = true;
-                _models[i].SetActive(true);
+                _models[i].SetActive(_bools[i]);
             }
             else
             {
